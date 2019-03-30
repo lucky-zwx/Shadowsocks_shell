@@ -14,7 +14,7 @@ config(){
 	\"password\":\"$PASS_WROD\",
 	\"timeout\":300,
 	\"method\":\"aes-256-cfb\"
-	}" >> ssserver.json
+	}" >> ~/ssserver.json
 
 	ssserver -c ~/ssserver.json -d start
 }
